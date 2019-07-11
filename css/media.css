@@ -87,6 +87,13 @@
         padding: 5px 0;
         text-align: right;
     }
+    .buttons {
+        justify-content: space-between;
+    }
+    .buttons .btn {
+        width: calc(50% - 10px);
+        margin: 0;
+    }
 }
 
 /* Custom, iPhone Retina */
