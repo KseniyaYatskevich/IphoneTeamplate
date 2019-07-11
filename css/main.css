@@ -127,3 +127,6 @@ body{
 .btn-fill:hover {
 	background-position: right center;
 }
+.btn-mobile {
+	display: none;
+}

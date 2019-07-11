@@ -60,7 +60,33 @@
 
     .header .logo {
         font-size: 18px;
+        line-height: 38px;
     } 
+
+    .btn-mobile {
+        display: block;
+        font-size: 36px;
+        color: #ffffff;
+        border: none;
+        background: none;
+        outline: none;
+        margin-left: auto;
+    }
+
+    .menu ul{
+        display: none;
+        padding-top: 20px;
+    }
+
+    .btn-mobile:focus + ul{
+        display: block;
+    }
+    .menu ul li {
+        display: block;
+        margin: 0;
+        padding: 5px 0;
+        text-align: right;
+    }
 }
 
 /* Custom, iPhone Retina */
